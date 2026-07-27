@@ -146,6 +146,7 @@ After prediction, the application displays:
 - 🚗 Side-by-side vehicle analysis
 
 ![](images/compare-car-2.png)
+![](images/compare-car-2.png)
 # 🛠 Technologies Used
 
 - Python
