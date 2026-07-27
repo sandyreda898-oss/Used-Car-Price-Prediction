@@ -105,15 +105,37 @@ Performance:
 
 ## ⚖ Compare Cars
 
-### Car 1
+## 🚗 Prediction Workflow
+
+### Step 1 — Enter Vehicle Information
+
+Fill in the vehicle details such as:
+
+- Brand
+- Manufacturing Year
+- Mileage
+- Engine Capacity
+- Fuel Type
+- Transmission
+- Color
+- Service History
+- Accident History
+- Insurance Status
 
 ![](images/compare-car-1.png)
 
-### Car 2
-
-![](images/compare-car-2.png)
-
 ---
+
+### Step 2 — AI Prediction Result
+
+After clicking **Predict Price**, the system displays:
+
+- 💰 Estimated Price
+- 📋 Vehicle Profile
+- ⭐ Vehicle Rating
+- 📊 Price Evaluation (Great Deal / Fair Price / Overpriced)
+
+![](images/compare-car-2.png)---
 
 # 🛠 Technologies Used
 
