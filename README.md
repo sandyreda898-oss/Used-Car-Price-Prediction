@@ -263,7 +263,6 @@ streamlit run app.py
 
 Faculty of Artificial Intelligence
 
-Horus University
 
 ---
 
