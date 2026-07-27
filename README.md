@@ -190,27 +190,6 @@ Used-Car-Price-Prediction/
 
 ---
 
-#  Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-```
-
-Install packages
-
-```bash
-pip install -r requirements.txt
-```
-
-Run Streamlit
-
-```bash
-streamlit run app.py
-```
-
----
 
 # 📊 Dataset Features
 
