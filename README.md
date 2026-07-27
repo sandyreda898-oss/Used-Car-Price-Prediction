@@ -75,79 +75,91 @@ Performance:
 
 ## 🏠 Dashboard
 
-The main dashboard provides quick access to all application features through a premium luxury interface.
+The main dashboard provides quick access to all application features through a modern luxury interface.
 
-![](images/home.png)
+<img src="./images/home.jpg" width="100%">
 
 ---
 
 ## 🚗 Price Prediction
 
-Enter the vehicle specifications to estimate its market value using the trained Machine Learning model.
+Users enter the vehicle specifications including:
 
-![](images/predict.png)
+- Brand
+- Manufacturing Year
+- Mileage
+- Engine Capacity
+- Fuel Type
+- Transmission
+- Previous Owners
+- Color
+- Service History
+- Accident History
+- Insurance Status
+
+<img src="./images/predict.jpg" width="100%">
 
 ---
 
-## 🤖 AI Prediction Result
+## 🤖 Prediction Result
 
 After clicking **Estimate Price**, the application displays:
 
-- 💰 Estimated Vehicle Price
-- 🚘 Real Car Image (retrieved dynamically using the Pexels API)
-- 📋 Vehicle Profile
-- ⭐ Vehicle Rating
-- 📊 Price Evaluation (Great Deal / Fair Price / Overpriced)
+- 💰 Predicted vehicle price
+- 🚘 Real vehicle image retrieved dynamically using the **Pexels API**
+- 📋 Complete vehicle profile
+- ⭐ AI Price Evaluation
 - 📄 Downloadable PDF Report
 
-![](images/prediction-example.png)
+<img src="./images/prediction-example.png.jpg" width="100%">
 
 ---
 
-## 📊 Market Insights Dashboard
+## 📊 Market Insights
 
-Interactive visualizations that help users explore the used car market, including:
+Interactive visualizations including:
 
 - Price Distribution
-- Brand Analysis
-- Fuel Type Distribution
+- Average Price by Brand
+- Fuel Type Analysis
 - Manufacturing Year Trends
-- Engine & Mileage Analysis
+- Mileage vs Price
+- Engine Capacity vs Price
 
-![](images/market.png)
-
----
-
-## 📈 Analytics Dashboard
-
-Advanced analytics for exploring feature relationships and understanding the dataset through interactive charts.
-
-![](images/analytics.png)
+<img src="./images/market.jpg" width="100%">
 
 ---
 
-## ⚖️ Compare Two Vehicles
+## 📈 Advanced Analytics
 
-Compare two vehicles side by side using the AI model.
+Explore feature relationships through advanced visualizations.
 
-### Step 1 — Select Two Vehicles
+<img src="./images/analytics.jpg" width="100%">
 
-Choose the specifications for both vehicles before running the comparison.
+---
 
-![](images/compare-car-1.png)
+# ⚖️ Vehicle Comparison
 
-### Step 2 — Comparison Results
+Compare two different vehicles using the trained Machine Learning model.
 
-After prediction, the application displays:
+## Step 1 — Enter Vehicle Specifications
+
+Fill in the specifications for both vehicles before running the comparison.
+
+<img src="./images/compare-car-1.jpg" width="100%">
+
+---
+
+## Step 2 — Comparison Result
+
+The application displays:
 
 - 💰 Predicted price for each vehicle
 - 📋 Detailed comparison table
 - 📊 Interactive price comparison chart
 - 🚗 Side-by-side vehicle analysis
 
-![](images/compare-car-2.png)
-![](images/compare-car-2.png)
-# 🛠 Technologies Used
+<img src="./images/compare-car-2.jpg" width="100%"># 🛠 Technologies Used
 
 - Python
 - Streamlit
