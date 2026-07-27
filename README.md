@@ -71,72 +71,81 @@ Performance:
 
 ---
 
-# 📷 Screenshots
+# 📸 Application Preview
 
 ## 🏠 Dashboard
+
+The main dashboard provides quick access to all application features through a premium luxury interface.
 
 ![](images/home.png)
 
 ---
 
-## 🚗 Prediction Page
+## 🚗 Price Prediction
+
+Enter the vehicle specifications to estimate its market value using the trained Machine Learning model.
 
 ![](images/predict.png)
 
 ---
 
-## 📈 Analytics Dashboard
+## 🤖 AI Prediction Result
 
-![](images/analytics.png)
+After clicking **Estimate Price**, the application displays:
 
----
-
-## 📊 Market Insights
-
-![](images/market.png)
-
----
-
-## 🚘 Prediction Example
+- 💰 Estimated Vehicle Price
+- 🚘 Real Car Image (retrieved dynamically using the Pexels API)
+- 📋 Vehicle Profile
+- ⭐ Vehicle Rating
+- 📊 Price Evaluation (Great Deal / Fair Price / Overpriced)
+- 📄 Downloadable PDF Report
 
 ![](images/prediction-example.png)
 
 ---
 
-## ⚖ Compare Cars
+## 📊 Market Insights Dashboard
 
-## 🚗 Prediction Workflow
+Interactive visualizations that help users explore the used car market, including:
 
-### Step 1 — Enter Vehicle Information
+- Price Distribution
+- Brand Analysis
+- Fuel Type Distribution
+- Manufacturing Year Trends
+- Engine & Mileage Analysis
 
-Fill in the vehicle details such as:
-
-- Brand
-- Manufacturing Year
-- Mileage
-- Engine Capacity
-- Fuel Type
-- Transmission
-- Color
-- Service History
-- Accident History
-- Insurance Status
-
-![](images/compare-car-1.png)
+![](images/market.png)
 
 ---
 
-### Step 2 — AI Prediction Result
+## 📈 Analytics Dashboard
 
-After clicking **Predict Price**, the system displays:
+Advanced analytics for exploring feature relationships and understanding the dataset through interactive charts.
 
-- 💰 Estimated Price
-- 📋 Vehicle Profile
-- ⭐ Vehicle Rating
-- 📊 Price Evaluation (Great Deal / Fair Price / Overpriced)
+![](images/analytics.png)
 
-![](images/compare-car-2.png)---
+---
 
+## ⚖️ Compare Two Vehicles
+
+Compare two vehicles side by side using the AI model.
+
+### Step 1 — Select Two Vehicles
+
+Choose the specifications for both vehicles before running the comparison.
+
+![](images/compare-car-1.png)
+
+### Step 2 — Comparison Results
+
+After prediction, the application displays:
+
+- 💰 Predicted price for each vehicle
+- 📋 Detailed comparison table
+- 📊 Interactive price comparison chart
+- 🚗 Side-by-side vehicle analysis
+
+![](images/compare-car-2.png)
 # 🛠 Technologies Used
 
 - Python
@@ -178,7 +187,7 @@ Used-Car-Price-Prediction/
 
 ---
 
-# 🚀 Installation
+#  Installation
 
 Clone the repository
 
