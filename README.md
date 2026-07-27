@@ -1,14 +1,4 @@
 # Used-Car-Price-Prediction
-# 🚗 LuxeCar Predict
-
-<p align="center">
-
-<img src="images/home.png" width="100%">
-
-</p>
-
----
-
 # 📌 About The Project
 
 Buying a used car can be challenging because prices vary depending on many factors such as:
